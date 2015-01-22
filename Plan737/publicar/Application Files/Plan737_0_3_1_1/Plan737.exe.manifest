@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Plan737.exe" version="0.3.1.1" publicKeyToken="73ef7b6d87a9f0d8" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Plan737" version="0.1.1.1" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Plan737.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.Vs.dll" size="269344">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>fGPnwWRQge7eDX6YlUg8yRubzSI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll" size="65128">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs.resources" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>DhOcLsZLOsJUzgYNQO96184Nhps=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Plan737.exe" size="52736">
+      <assemblyIdentity name="Plan737" version="0.1.1.1" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>g4rKa1FhpFjyn2lPAALzeLxs2mI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="904704">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.66.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EFF0T2VKbSBZCXD5M14e8kbw+mc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Plan737.exe.config" size="587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TfOdNvh4wq7InE+hSl1xRQiuUPs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESK\Giorgio" issuerKeyHash="ba47e7351d22f3f0d8ce9fa9ef409ca469f8281d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cVOGCOYkF2CNveyR6eK1V1IwJQI=</DigestValue></Reference></SignedInfo><SignatureValue>Qcls45tkRkLX5BpM5Cs5HXT5T+PpSEuidG9FO7td9RS/smsYy6U/FwYYMoYKnNoH9jNCzBlBdMShKAf7fJWHcorjRXDI11ePpXIAFaH5bqbeeW6Z189xZsfPBJafYBgI6RLkSsduwQwHw6Gzn8Vqasb+Tv8EweItmheJ8DNUR+E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2h1AXc9rsiE+s9JOVfTJajB2TSGVuFIHn2rzHKnX1QRZg5sqLt3//JEziod19muy7mcntLd32WayVyNMt2pmwg108G27Ay0OdT+SyKZbnK7lMWFuPioMcyKsx1XRqzwIpug7iPyjY1itSGr1w6bS4Vcu16o7tUE+ZaH1P22QlF8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0225305257b5e2e991ecbd8d601724e608865371" Description="" Url=""><as:assemblyIdentity name="Plan737.exe" version="0.3.1.1" publicKeyToken="73ef7b6d87a9f0d8" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESK\Giorgio</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nNYFGp2S1FEkehQMe1cgPe65B+U=</DigestValue></Reference></SignedInfo><SignatureValue>1cuYHolnMOVUOuovhhCdu7Rr0a7okZEOAcIrRbxI4zJMhPgNnV7tCakXZyK+niV32akIS7Kb45otdOsajkrtnPHG/m7faxaN/T5BgQY/Jr89KHGX56HUz3/zZvyIncO2kxLlOdA/TAYacepibAPYCO0+8u97/W2OJGJTLHz7q94=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2h1AXc9rsiE+s9JOVfTJajB2TSGVuFIHn2rzHKnX1QRZg5sqLt3//JEziod19muy7mcntLd32WayVyNMt2pmwg108G27Ay0OdT+SyKZbnK7lMWFuPioMcyKsx1XRqzwIpug7iPyjY1itSGr1w6bS4Vcu16o7tUE+ZaH1P22QlF8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQRc3FYdT+dodO1GkllMvqOzANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgARABFAFMASwBcAEcAaQBvAHIAZwBpAG8wHhcNMTMwMTIzMTYxNjMyWhcNMTQwMTIzMjIxNjMyWjAjMSEwHwYDVQQDHhgARABFAFMASwBcAEcAaQBvAHIAZwBpAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANodQF3Pa7IhPrPSTlX0yWowdk0hlbhSB59q8xyp19UEWYObKi7d//yRM4qHdfZrsu5nJ7S3d9lmslcjTLdqZsINdPBtuwMtDnU/ksimW5yu5TFhbj4qDHMirMdV0as8CKboO4j8o2NYrUhq9cOm0uFXLteqO7VBPmWh9T9tkJRfAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAZ1GiMufd8JcqQAehWSvcIycXh72PlW6cZhAIDyCn/FVBvPW8IgUMzMoyQOSr9/g9/9+yurPJOZqyUIj6due40w7XOimIuVYLbBDO/ECyrOlvlL9xcNTJtVtdNOZO1yxT4g0b5F+oJBrs1zgGcIXiOP4NGYsIJ/ayWZAMPIrHG3I=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
